@@ -23,7 +23,7 @@ void createBiTree(s_bNode **pTree){
 		createBiTree(&((*pTree)->rchild));
 	}
 }
-
+//preorder depth first search
 void travelBiTree(s_bNode *pTree){
 	if(pTree == NULL)
 		return;
