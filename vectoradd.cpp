@@ -34,6 +34,6 @@ int main(){
 	vec v(a, 5);
 	v.printv();
 	vec t;
-	(v+1);
+	v+1;
 	v.printv();
 }
